@@ -2,6 +2,80 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# 🎬 Movie App
+
+## Project Overview
+
+This project is a **Movie App** built with React, designed to showcase your favorite movies or TV shows. You can add, display, and filter movies using titles and ratings. The project utilizes **React Hooks** to manage state and component lifecycles.
+
+---
+
+## Features
+
+- **Display a list of movies**: Each movie displays its title, description, poster, and rating.
+- **Add a new movie**: Users can add new movies to the list with all required attributes.
+- **Filter movies**: Users can filter movies by title or rating to easily find what they’re looking for.
+
+---
+
+## Components
+
+The app is divided into the following main components:
+
+### 1. `MovieCard`
+   - Displays the details of a single movie, including:
+     - **Title**
+     - **Description**
+     - **Poster URL**
+     - **Rating**
+
+### 2. `MovieList`
+   - Renders a list of all movies added by the user.
+   - Uses the `MovieCard` component to display each movie.
+
+### 3. `Filter`
+   - Provides input fields for filtering movies by:
+     - **Title**
+     - **Rating**
+   - Dynamically updates the displayed movies based on the filters applied.
+
+---
+
+## Movie Attributes
+
+Each movie should contain the following attributes:
+
+- **Title**: The name of the movie.
+- **Description**: A brief description of the movie.
+- **Poster URL**: A link to an image representing the movie poster.
+- **Rating**: A numeric rating for the movie.
+
+---
+
+## User Stories
+
+1. **Add a Movie**: Users should be able to add new movies by filling in a form with the required attributes.
+2. **Filter Movies**: Users can filter the movie list by entering a title or selecting a minimum rating.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or above recommended)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movie-app.git
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
