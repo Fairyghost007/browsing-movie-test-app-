@@ -1,5 +1,5 @@
 // src/components/Filter.js
-import React from "react";
+import React, { useState } from 'react';
 
 function Filter({ onTitleChange, onRatingChange }) {
   return (
@@ -18,7 +18,9 @@ function Filter({ onTitleChange, onRatingChange }) {
         onChange={(e) => onRatingChange(e.target.value)}
         className="border border-gray-300 p-2 rounded-md w-auto"
       />
+     
     </div>
+    
   );
 }
 
