@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#ScreenShoot
+
+<img width="1440" alt="Screen Shot 2024-11-04 at 21 20 49" src="https://github.com/user-attachments/assets/b8816853-f75e-4061-abd0-ecae254e1d52">
+
+
 # 🎬 Movie App
 
 ## Project Overview
